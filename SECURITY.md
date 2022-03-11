@@ -1,40 +1,45 @@
-# Security Policy
+# Security Policies and Procedures
 
-This document describes the security policy and reporting procedures for the GitHub Issue Tracker 
+This document outlines security procedures and general policies for the SORMAS
 project.
 
-  * [Reporting a Security Issue](#reporting-a-security-issue)
-  * [Responsible Disclosure Policy](#responsible-disclosure-policy)
-  * [Suggestions for this Policy](#suggestions-for-this-policy)
-  
-If you want to report a bug which is not security sensible, please submit an issue. 
+- [Security Policies and Procedures](#security-policies-and-procedures)
+  - [Reporting a Security Bug](#reporting-a-security-bug)
+  - [Disclosure Policy](#disclosure-policy)
+  - [Comments on this Policy](#comments-on-this-policy)
 
-## Reporting a Security Issue
-Our team takes all security issues in our code seriously.  
-If you want to report a security issue we appreciate your effort and kindly ask you to submit a responsible disclosure.  
-Unfortunately, IMIS does not offer a bug bounty program or other forms of monetary compensation. 
-However, we can acknowledge your effort publicly in the GitHub project.  
-Thank you for improving the security of the GitHub Issue Tracker project!
+If you want to report a bug which is not security sensible, please [submit an issue](https://github.com/hzi-braunschweig/SORMAS-Project/blob/development/CONTRIBUTING.md#submitting-an-issue).
 
-Report security issues via email at [security@imis-innovation.de](mailto:security@imis-innovation.de?subject=GitHub%20Security%20Issue%20SORMAS-Issue-Tracker).
+## Reporting a Security Bug
 
-The IMIS team acknowledges your email within two days and will further respond in detail within three days, explaining the induced actions.  
-Our security team will keep you up to date of the progress towards fixing the vulnerability and may ask you for additional information.
+Our team and community take all security bugs in SORMAS seriously.
+Thank you for improving the security of SORMAS. We appreciate your efforts and
+responsible disclosure and will make every effort to acknowledge your
+contributions.
+Unfortunately, SORMAS does not offer a paid bug bounty programme or other forms of compensation.
 
-Please report security issues in third-party dependencies to the person or team maintaining
-the project for this dependency.
+Report security bugs by emailing at **security@sormas.org**.
 
-## Responsible Disclosure Policy
+We will acknowledge your email and follow up with a response within 10 business days, or explain why a reply may take longer. The response will indicate the next steps in handling your report.
+After the initial reply to your report, the security team will endeavor to keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
 
-When we receive a security bug report, we will assign it to a person who handles your disclosure.  
-This person is responsible for the following steps of the fix process:
+Report security bugs in third-party modules to the person or team maintaining
+the module.
 
-* Confirm the problem and identify affected versions
-* Audit code for finding similarproblems
-* Develop fixes for all affected versions
-* Release fixes as quick as possible
 
-## Suggestions for this Policy
+## Disclosure Policy
 
-Feedback on this policy and the process is welcome and if you want to suggest how to improve it, we kindly ask you to submit a pull request.
+When the security team receives a security bug report, they will assign it to a
+primary handler. This person will coordinate the fix and release process,
+involving the following steps:
+
+* Confirm the problem and determine the affected versions.
+* Audit code to find any potential similar problems.
+* Prepare fixes for all releases still under maintenance. These fixes will be
+  released as fast as possible.
+
+## Comments on this Policy
+
+If you have suggestions on how this process could be improved please submit a
+pull request.
 
