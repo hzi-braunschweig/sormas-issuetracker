@@ -54,6 +54,6 @@ Usage: `'<text>' : '<translation>'`
 
 ## Demo
 
-You can try out the current version of the development-branch here: https://healthimis.github.io/sormas-issuetracker/
+You can try out the current version of the development-branch here: https://hzi-braunschweig.github.io/sormas-issuetracker/
 
 _Loading Gif from loading.io_
